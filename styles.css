@@ -1,0 +1,91 @@
+main
+{
+    width: 54vw;
+    height: 60vh;
+    /* flex: 1 1 100%; */
+    /* padding: auto; */
+    display: block;
+    margin: 5rem auto;
+    /* flex-direction: column; */
+    align-items: center;
+    text-align: center;
+    /* background-image: url("src/images/snow.jpeg"); */
+
+
+}
+body
+{
+    font-family: "Outfit", sans-serif;
+    background-size: cover;
+    background-position: top center;
+    background-color: gray;
+
+}
+
+header
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 25px 25px;
+}
+
+
+header input:focus
+{
+    background-color: rgba(18, 18, 18, 0.8);
+}
+
+.location .city
+{
+    color: white;
+    font-size: 32px;
+    font-weight: 500;
+    margin-bottom: 5px;
+}
+.location .date
+{
+    color: cyan;
+    font-size: 16px;
+}
+.current .temp
+{
+    color: black;
+    font-size: 102px;
+    font-weight: 900;
+    margin: 30px 0;
+    text-shadow: 0px 0px rgba(0, 0, 0, 0.5);
+}
+.current .temp span
+{
+    font-weight: 200;
+}
+.current .weather
+{
+    color: black;
+    font-size: 32px;
+    font-weight: 700;
+    font-style: italic;
+    margin-bottom: 15px;
+    text-shadow: 0 0px rgba(0, 0, 0, 0.4);
+}
+.current .hi-low
+{
+    color: black;
+    font-size: 24px;
+    font-weight: 500;
+    text-shadow: 0 0px rgba(0, 0, 0, 0.4);
+}
+.footer
+{
+
+    position: absolute;
+    bottom: 0;
+    text-align: center;
+    margin: 0 auto;
+    padding-top: 1rem;
+    height: 10vh;
+    width: 100vw;
+    background-color: gray;
+
+}
